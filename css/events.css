@@ -1,0 +1,163 @@
+@import url(./style.css);
+
+/* *{
+	border: 1px solid red;
+} */
+
+#header{
+	background: var(--color2);
+}
+p{
+	color: var(--color1);
+	font-size: 1.1rem;
+}
+
+.box{
+	background: rgb(54, 75, 158);
+	border-radius: 10px;
+	padding: 1.5rem;
+}
+.box h3{
+	color: var(--color1);
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+.box .h3{
+	font-size: 1.5rem;
+}
+
+#events{
+	background: url(../imgs/events-img/events-bg.avif)no-repeat;
+	background-size: cover;
+	padding: 12.5rem 5rem 5rem;
+}
+#events img{
+	width: 45rem;
+	border-radius: 5px;
+}
+#events .left img{
+	margin-bottom: 1rem;
+}
+#events .container{
+	display: flex;
+	gap: 1.5rem;
+}
+
+#events .div1{
+	display: flex;
+	margin-bottom: 1rem;
+}
+#events .div1 img{
+	width: 35rem;
+	margin-right: 1.5rem;
+}
+#events .div1 .text{
+	padding-top: 1.5rem;
+}
+
+#events .div2{
+	display: flex;
+	text-align: center;
+}
+#events .div2 .box{
+	margin-inline: .5rem;
+}
+#events .div2 img{
+	width: 18rem;
+	margin: 0 auto 1rem;
+}
+
+#events .tag{
+	margin: 1rem 0 1.5rem;
+}
+#events .tag span{
+	color: var(--color1);
+	background: darkblue;
+	font-size: 1.3rem;
+	border: 1px solid var(--color1);
+	margin-right: 1.5rem;
+	padding: .5rem 1rem;
+}
+#events .tag p{
+	font-size: 1.2rem;
+}
+#events .desc{
+	color: #ddd;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+
+/* EVENT PREVIEW */
+#event-preview{
+	background: url(../imgs/events-img/events-bg.avif);
+	background-size: cover;
+	text-align: center;
+	padding-top: 12rem;
+}
+#event-preview img{
+	width: 80%;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+#event-preview h2{
+	color: var(--color1);
+	font-size: 2rem;
+	margin: 1.5rem 0 2.5rem;
+}
+#event-preview p{
+	font-size: 1.3rem;
+}
+
+
+/* MEDIA */
+@media (max-width: 1250px) {
+	#events .left{
+		text-align: center;
+	}
+	#events .left img{
+		width: 100%;
+		height: 35rem;
+	}
+	#events .container{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 715px) {
+	#events .div1{
+		flex-direction: column;
+		text-align: center;
+		gap: 1rem;
+	}
+	#events .div1 img{
+		width: 100%;
+		height: 25rem;
+	}
+}
+
+@media (max-width: 700px) {
+	#events .div2{
+		width: fit-content;
+		flex-direction: column;
+		justify-content: center;
+		gap: 1rem;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 600px) {
+	#events .tag span{
+		font-size: 1rem;
+	}
+	#events .left img{
+		width: 100%;
+		height: auto;
+	}
+	#events .div1 img{
+		width: 100%;
+		height: auto;
+	}
+}

@@ -1,0 +1,175 @@
+@import url(./style.css);
+
+/* HERO SECTION */
+#hero{
+	height: 60rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	overflow: hidden;
+	/* background: linear-gradient(to right, #111, #123, #111); */
+	background: url(../imgs/bg/MLBB.jpg)no-repeat, linear-gradient(to right, #333, #6f8ca9, #333);
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+}
+
+#hero h1{
+	font-size: 5rem;
+	color: var(--color3);
+	margin-bottom: 1.5rem;
+}
+#hero p{
+	font-size: 1.5rem;
+	color: var(--color1);
+}
+
+
+/* FEATURED NEWS */
+#featured-news .blog-container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 3rem;
+}
+#featured-news .div{
+	margin-bottom: 2.5rem;
+}
+#featured-news .blog-container .blog-card{
+	transition:all .3s linear;
+}
+#featured-news .blog-container .blog-card:hover{
+	transform: scale(.98);
+}
+
+#featured-news img{
+	height: 20rem;
+}
+
+#featured-news .tag{
+	margin: 1.5rem 0;
+}
+#featured-news p{
+	font-size: 1.4rem;
+	color: #444;
+}
+#featured-news span{
+	font-weight: 600;
+	color: darkblue;
+	margin-right: .5rem;
+}
+#featured-news h3{
+	font-family: var(--font3);
+	font-size: 2.2rem;
+	margin-bottom: .5rem;
+}
+
+#featured-news .btn{
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 5rem;
+}
+#featured-news .btn a{
+	border-radius: 5px;
+	color: var(--color1);
+	background: var(--color4);
+	padding: 1rem;
+}
+#featured-news .btn a:hover{
+	color: #fff;
+	background: #000;
+}
+
+
+/* CHOOSE HERO */
+#choose-hero{
+	text-align: center;
+	background: url(../imgs/abstract-minimal-white-background.jpg)no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#choose-hero .container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2.5rem 0;
+}
+#choose-hero .container p{
+	font-family: var(--font2);
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+#choose-hero .container .p2{
+	font-family: var(--font2);
+	opacity: .5;
+	margin: 0;
+}
+
+#choose-hero h2{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 6rem;
+	letter-spacing: 6px;
+	line-height: 1.3;
+}
+#choose-hero p:first-child{
+	font-size: 2rem;
+}
+#choose-hero p:nth-child(3){
+	font-size: 1.5rem;
+	padding: 1rem 15%;
+}
+
+#choose-hero #myBtnContainer img{
+	margin: 0;
+}
+#choose-hero #myBtnContainer .btn{
+	text-align: center;
+	font-family: var(--font1);
+	font-weight: 500;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	margin: 0 1.5rem 1.5rem;
+	transition: .3s ease-in-out;
+}
+#choose-hero #myBtnContainer .btn:hover, #choose-hero .btn.active{
+	transform: scale(1.1);
+}
+
+#choose-hero .btn-div{
+	margin-top: 8rem;
+}
+#choose-hero .btn-div a{
+	font-family: var(--font1);
+	font-size: 1.5rem;
+	background: goldenrod;
+	padding: 1.5rem;
+}
+#choose-hero .btn-div a:hover{
+	opacity: .9;
+}
+
+#choose-hero img{
+	width: 100%;
+	height: 30rem;
+	border-radius: 5px;
+	margin-bottom: 2.5rem;
+	transition: .5s ease-in-out;
+}
+#choose-hero img:hover{
+	transform: scale(1.1);
+}
+#choose-hero .choose-category img{
+	width: 5rem;
+	height: 5rem;
+}
+
+.content{
+    display: none;
+    transition: 3s ease-in-out;
+}
+.show{
+    display: block;
+    transition: 3s ease-in-out;
+}

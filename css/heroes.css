@@ -1,0 +1,33 @@
+@import url(./style.css);
+
+#header{
+	background: var(--color2);
+}
+
+.hero-title{
+	padding: 15rem 20% 0;
+	text-align: center;
+}
+.hero-title .div{
+	text-align: center;
+}
+
+.hero-title .p1{
+	font-size: 2rem;
+}
+.hero-title h2{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 6.6rem;
+	font-weight: 600;
+	margin: .5rem 0;
+}
+.hero-title p{
+	font-size: 1.6rem;
+}
+
+/* MEDIA */
+@media (max-width: 500px) {
+	.hero-title{
+		padding: 15rem 5% 0;
+	}
+}

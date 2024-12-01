@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mlml | Home - Blog Website</title>
+	<!-- ICON -->
+	<link rel="shortcut icon" href="./imgs/logo/favicon.png" type="image/x-icon">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./css/media.css">
+
+	<!-- JS -->
+	<script src="./js/script.js" defer></script>
+	<script src="./js/category-filter.js" defer></script>
+</head>
+<body>
+	<!-- HEADER -->
+	<header id="header" class="header">
+		<div class="logo">
+			<!-- <a href="./index.html"><img src="./imgs/favicon.png" alt=""></a> -->
+			<a href="./index.html" class="title">Ml<span>ml</span></a>
+		</div>
+
+		<nav class="navbar">
+			<ul class="nav-menu">
+				<li class="nav-item"><a href="./index.html" class="nav-link curr">Home</a></li>
+				<li class="nav-item"><a href="./about.html" class="nav-link">About us</a></li>
+				<li class="nav-item"><a href="./heroes.html" class="nav-link">Heroes</a></li>
+				<li class="nav-item"><a href="./events.html" class="nav-link">Events</a></li>
+				<li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+			</ul>
+
+			<div class="burger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+		</nav>
+	</header>
+
+
+	<!-- HERO SECTION -->
+	<section id="hero">
+		<h1>Welcome to Mobile Legends</h1>
+		<p>The ultimate hub for Mobile Legends enthusiasts!</p>
+	</section>
+	
+	<!-- GIF -->
+	<section class="center">
+		<img src="./imgs/bg/ml-gif.gif" alt="">
+	</section>
+
+
+	<!-- FEATURED NEWS -->
+	<section id="featured-news">
+		<div class="div">
+			<h2>FEATURED NEWS</h2>
+		</div>
+
+		<div class="blog-container">
+			<a href="https://www.youtube.com/watch?v=yP-n4aY9V60" target="_blank" class="blog-card">
+				<div>
+					<img src="./imgs/blog-card/yP-n4aY9V60-HD.jpg" alt="">
+
+					<div class="tag">
+						<p><span>MEDIA </span> <span>|</span> 11/25/2024</p>
+					</div>
+
+					<div class="title-desc">
+						<h3>December StarLight Perks</h3>
+						<p>Lorem ipsum dolor, sitite ametite consectetur adipisicing elit. Sequi, necessitatibus.</p>
+					</div>
+				</div>
+			</a>
+			
+			<a href="./game_update.html" class="blog-card">
+				<div>
+					<img src="./imgs/blog-card/update.jpg" alt="">
+
+					<div class="tag">
+						<p><span>GAME UPDATES </span> <span>|</span> 10/25/2024</p>
+					</div>
+
+					<div class="title-desc">
+						<h3>Suyou Abilities Rundown</h3>
+						<p>Lorem ipsum dolor dreamville amet consectetur adipisicing elit. Esse, assumenda!</p>
+					</div>
+				</div>
+			</a>
+
+			<a href="" class="blog-card">
+				<div>
+					<img src="./imgs/blog-card/community.jpg" alt="">
+
+					<div class="tag">
+						<p><span>Community </span> <span>|</span> 10/25/2024</p>
+					</div>
+
+					<div class="title-desc">
+						<h3>Lorem: "Ipsum dolor" Sit Amet</h3>
+						<p>Lorem ipsum dolor sit down, be humble adipisicing elit. Doloremque, numquam. lorem10</p>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="btn">
+			<a href="./events.html">See more</a>
+		</div>
+	</section>
+
+
+	<!-- CHOOSE HERO -->
+	<section id="choose-hero">
+		<div class="top">
+			<div class="div">
+				<p>CHOOSE YOUR</p>
+				<h2>HEROES</h2>
+				<p>With more than 100 champions, you’ll find the perfect match for your playstyle. Master one, or master them all. You choose your mastery.</p>
+			</div>
+		</div>
+		
+		<div class="bottom">
+			<div class="container">
+				<div class="content fighter">
+					<a href=""><img src="./imgs/heroes/Yu-Zhong.jpg" alt=""></a>
+					<p>Yu-Zhong</p>
+					<p class="p2">The Black Dragon</p>
+				</div>
+				<div class="content assassin">
+					<a href=""><img src="./imgs/heroes/Benedetta.jpg" alt=""></a>
+					<p>Benedetta</p>
+					<p class="p2">The Shadow Ranger</p>
+				</div>
+				<div class="content mage">
+					<a href=""><img src="./imgs/heroes/Eudora.jpg" alt=""></a>
+					<p>Eudora</p>
+					<p class="p2">The Lightning Weaver</p>
+				</div>
+				<div class="content marksman">
+					<a href=""><img src="./imgs/heroes/Granger.jpg" alt=""></a>
+					<p>Granger</p>
+					<p class="p2">The Death Chanter</p>
+				</div>
+				<div class="content tank">
+					<a href=""><img src="./imgs/heroes/Khufra.jpg" alt=""></a>
+					<p>Khufra</p>
+					<p class="p2">The Desert Tyrant</p>
+				</div>
+				<div class="content support">
+					<a href=""><img src="./imgs/heroes/Mathilda.jpg" alt=""></a>
+					<p>Mathilda</p>
+					<p class="p2">The Swift Plume</p>
+				</div>
+			</div>
+
+			<div class="choose-category" id="myBtnContainer">
+				<!-- <button class="btn active" onclick="filterSelection('all')">Show All</button> -->
+				<button class="btn" onclick="filterSelection('fighter')"><img src="./imgs/logo/fighter-logo.png" alt="">Fighter</button>
+				<button class="btn" onclick="filterSelection('assassin')"><img src="./imgs/logo/assassin-logo.png" alt="">Assassin</button>
+				<button class="btn" onclick="filterSelection('mage')"><img src="./imgs/logo/mage-logo.png" alt="">Mage</button>
+				<button class="btn" onclick="filterSelection('marksman')"><img src="./imgs/logo/mm-logo.png" alt="">Marksman</button>
+				<button class="btn" onclick="filterSelection('tank')"><img src="./imgs/logo/tank-logo.png" alt="">Tank</button>
+				<button class="btn" onclick="filterSelection('support')"><img src="./imgs/logo/suppport-logo.png" alt="">Support</button>
+			</div>
+
+			<div class="btn-div">
+				<a href="./heroes.html">DISCOVER MORE HEROES</a>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
