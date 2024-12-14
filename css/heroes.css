@@ -25,6 +25,32 @@
 	font-size: 1.6rem;
 }
 
+
+/* HERO POOL */
+#container img{
+	height: 350px;
+	width: 350px;
+	margin-bottom: 1.5rem;
+}
+#container h3{
+	font-size: 2rem;
+}
+#container p{
+	font-size: 1.3rem;
+	font-weight: 500;
+	opacity: .7;
+}
+#container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	text-align: center;
+}
+#container .card{
+	margin-bottom: 1.5rem;
+}
+
 /* MEDIA */
 @media (max-width: 500px) {
 	.hero-title{

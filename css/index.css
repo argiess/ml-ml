@@ -173,3 +173,29 @@
     display: block;
     transition: 3s ease-in-out;
 }
+
+
+/* NEWSLETTER */
+.newsletter{
+	text-align: center;
+}
+.newsletter p{
+	font-size: 1.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.newsletter form input{
+	height: 3rem;
+	width: 28rem;
+	border: 1.5px solid #333;
+	padding: .5rem 1.5rem;
+	margin-bottom: 1rem;
+}
+.newsletter form button{
+	height: 3rem;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	background-color: gold;
+	padding: .5rem 1.5rem;
+}

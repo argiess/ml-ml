@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    padding-bottom: 100px;
+}
+
+body{
+    background-color: aliceblue;
+    text-align: center;
+    background: url(../imgs/events-img/events-bg.avif) no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+body img{
+    
+    
+    width: 800px;
+    
+}
+h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: bold;
+  color: white;
+}
+hr{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+.textt{
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+}
+
+.textt img{
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.head{
+    font-size: 29px;
+}
+
+.tophead{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Full viewport width */
+}
+.but{
+    background-color: transparent;
+    border: none;
+    padding-left: 80px;
+}
+.but img{
+    height: 50px;
+    width: 50px;
+    
+}
+
+.titlee {
+    flex-grow: 1; /* Allow h1 to take up available space */
+    text-align: center; /* Center the text of h1 */
+    padding-right: 150px;
+}

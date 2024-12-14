@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mlml - Blog Website</title>
+	<title>Mlml | Contact - Blog Website</title>
 	<!-- ICON -->
 	<link rel="shortcut icon" href="./imgs/logo/favicon.png" type="image/x-icon">
 	<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
@@ -11,7 +11,8 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/header.css">
-	<link rel="stylesheet" href="./css/game_update.css">
+	<link rel="stylesheet" href="./css/about.css">
+	<link rel="stylesheet" href="./css/contact.css">
 	<link rel="stylesheet" href="./css/media.css">
 
 	<!-- JS -->
@@ -32,7 +33,7 @@
 				<li class="nav-item"><a href="./about.html" class="nav-link">About us</a></li>
 				<li class="nav-item"><a href="./heroes.html" class="nav-link">Heroes</a></li>
 				<li class="nav-item"><a href="./events.html" class="nav-link">Events</a></li>
-				<li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+				<li class="nav-item"><a href="./contact.html" class="nav-link curr">Contact</a></li>
 			</ul>
 
 			<div class="burger">
@@ -43,24 +44,34 @@
 		</nav>
 	</header>
 
+	<!-- <div class="div">
+		<h2>Contact Us</h2>
+	</div> -->
 
-	<!--  -->
-	<div class="bg-image"></div>
-
-	<div class="bg-text">
-		<img src="./imgs/heroes/Suyou.jpg" alt="">
+	<div class="container">
+		<!-- Contact Form -->
+		<div class="form-container">
+			<h2>Get in Touch</h2>
+			<form action="/submit" method="POST">
+				<label for="name">Your Name:</label>
+				<input type="text" id="name" name="name" placeholder="Enter your name" required>
+	
+				<label for="email">Your Email:</label>
+				<input type="email" id="email" name="email" placeholder="Enter your email" required>
+	
+				<label for="message">Your Message:</label>
+				<textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+	
+				<button type="submit">Send Message</button>
+			</form>
+		</div>
+	
+		<!-- BG -->
+		<div class="bg-container">
+			<img src="./imgs/mobile-legends-bang-bang-logo-fight.jpg" alt="">
+		</div>
 	</div>
 
-
-	<!-- TITLE -->
-	<div class="title-section">
-		<h1>Suyou Abilities Rundown</h1>
-		<p>Show no mercy with Suyou in 14.22.</p>
-	</div>
-	<hr><hr>
-	<div class="div">
-		<p><span class="c">Game Updates</span> <span class="g">|</span> Mlml <span class="g">|</span> 11/22/2024</p>
-	</div>
 
 	<!-- FOOTER -->
 	<footer>
