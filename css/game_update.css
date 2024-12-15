@@ -78,3 +78,29 @@ hr{
 	color: #000;
 	opacity: .3;
 }
+
+
+.abilities img{
+	width: 10rem;
+}
+.abilities h4{
+	font-size: 1.6rem;
+	font-weight:600;
+	margin-bottom: .5rem;
+}
+.abilities .b{
+	font-size: 1.2rem;
+	background: #000;
+	padding: .2rem 1rem;
+}
+.abilities .h{
+	color: #f49506;
+}
+.abilities p{
+	margin-top: .5rem;
+}
+.abilities .div{
+	display: flex;
+	text-align: left;
+	gap: 1.5rem;
+}
